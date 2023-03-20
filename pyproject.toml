@@ -18,7 +18,8 @@ dependencies = [
     "numpy",
     "netCDF4",
     "importlib_resources",
-    'tqdm'
+    'tqdm',
+    'pillow'
 ]
 dynamic = ["version"]
 
