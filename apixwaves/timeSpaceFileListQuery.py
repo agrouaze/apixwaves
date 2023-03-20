@@ -41,6 +41,14 @@ def cmdlineparser():
 
 
 def rawQuery(satellite,date_interval,bbox):
+    """
+
+    :param satellite: str S1A or S1B or ..
+    :param date_interval: str YYYYMMDDHHMMSS,YYYYMMDDHHMMSS (eg 20140101010101,20170106112608)
+    :param bbox: str latmin,lonmin,latmax,lonmax(eg 30,-30,-30,10)
+    :return:
+        res_list (list): containing the full path of the data on ifremer archive
+    """
     log.debug('Arg bbox : %s'%(bbox))
     log.debug('Arg date_interval : %s'%(date_interval))
     log.debug('Arg satellite : %s'%(satellite))
