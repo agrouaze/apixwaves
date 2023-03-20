@@ -1,4 +1,4 @@
-from list_files_l2_cwwic_between_dates import list_l2_swim_between_dates
+from apixwaves.list_files_l2_cwwic_between_dates import list_l2_swim_between_dates
 from datetime import timedelta,datetime
 import netCDF4
 import logging
