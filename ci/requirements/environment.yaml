@@ -1,0 +1,25 @@
+name: apixwaves-tests
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  # development
+  - ipython
+  - pre-commit
+  - jupyterlab
+  - jupyterlab_code_formatter
+  - isort
+  - black
+  # testing
+  - pytest
+  - pytest-reportlog
+  - hypothesis
+  - coverage
+  # I/O
+  # data
+  - xarray
+  - numpy
+  # processing
+  - more-itertools
+  - tqdm
+  - importlib_resources
